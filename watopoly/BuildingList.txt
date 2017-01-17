@@ -1,0 +1,95 @@
+Index Name Monopoly Block Purchase Cost Improvement Cost 0 1 2 3 4 5
+
+1 AL Arts1 0 40 50 2 10 30 90 160 250
+
+3 ML Arts1 0 60 50 4 20 60 180 320 450
+
+6 ECH Arts2 1 100 50 6 30 90 270 400 550
+
+8 PAS Arts2 1 100 50 6 30 90 270 400 550
+
+9 HH Arts2 1 120 50 8 40 100 300 450 600
+
+11 RCH Eng 2 140 100 10 50 150 450 625 750
+
+13 DWE Eng 2 140 100 10 50 150 450 625 750
+
+14 CPH Eng 2 160 100 12 60 180 500 700 900
+
+16 LHI Health 3 180 100 14 70 200 550 750 950
+
+18 BMH Health 3 180 100 14 70 200 550 750 950
+
+19 OPT Health 3 200 100 16 80 220 600 800 1000
+
+21 EV1 Env 4 220 150 18 90 250 700 875 1050
+
+23 EV2 Env 4 220 150 18 90 250 700 875 1050
+
+24 EV3 Env 4 240 150 20 100 300 750 925 1100
+
+26 PHYS Sci1 5 260 150 22 110 330 800 975 1150
+
+27 B1 Sci1 260 5 150 22 110 330 800 975 1150
+
+29 B2 Sci1 280 5 150 24 120 360 850 1025 1200
+
+31 EIT Sci2 300 6 200 26 130 390 900 1100 1275
+
+32 ESC Sci2 300 6 200 26 130 390 900 1100 1275
+
+34 C2 Sci2 320 6 200 28 150 450 1000 1200 1400
+
+37 MC Math 350 7 200 35 175 500 1100 1300 1500
+
+39 DC Math 400 7 200 50 200 600 1400 1700 2000
+
+Index Residences
+/ Cost 200
+/ Base rent 25, double up for each more
+
+5 MKV
+
+15 UWP
+
+25 V1
+
+35 REV
+
+Index Gym
+/ Cost 150
+/ Base pay dice value*4, if both dice value*10
+
+12 PAC
+
+28 CIF
+
+Index NonProperty
+/ Get 200
+0 COLLECTOSAP
+
+/ Play SLC
+2 17 33 SLC
+
+/ Lose 300 or 10% of all assets
+4 TUITION
+
+/ Play NEEDLESHALL
+7 22 36 NEEDLESHALL
+
+/ Normally nothing
+/ Like jail, u can roll doubles(in 3 turns)
+/ Or pay 50
+/ Or use a Rim cup
+/ Move the last time of the roll result
+10 DC TIMSLINE
+
+/ Nothing. Draw a goose
+20 GOOSENESTING
+
+/ Send to DCTIMSLINE
+/ No collect from OSAP
+30 GOTOTIMS
+
+/ Lose 150
+38 COOPFEES

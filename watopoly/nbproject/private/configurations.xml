@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name=".idea">
+      </df>
+      <df name="CMakeFiles">
+      </df>
+      <in>AcademicBuilding.cc</in>
+      <in>AcademicBuilding.h</in>
+      <in>Building.cc</in>
+      <in>Building.h</in>
+      <in>Cell.cc</in>
+      <in>Cell.h</in>
+      <in>Controller.cc</in>
+      <in>Controller.h</in>
+      <in>CoopFee.cc</in>
+      <in>CoopFee.h</in>
+      <in>Dice.cc</in>
+      <in>Dice.h</in>
+      <in>Display.cc</in>
+      <in>Display.h</in>
+      <in>GameBoard.cc</in>
+      <in>GameBoard.h</in>
+      <in>GoToTim.cc</in>
+      <in>GoToTim.h</in>
+      <in>GooseNesting.cc</in>
+      <in>GooseNesting.h</in>
+      <in>Gym.cc</in>
+      <in>Gym.h</in>
+      <in>NeedlesHall.cc</in>
+      <in>NeedlesHall.h</in>
+      <in>Nonproperty.cc</in>
+      <in>Nonproperty.h</in>
+      <in>OSAP.cc</in>
+      <in>OSAP.h</in>
+      <in>Observer.cc</in>
+      <in>Player.cc</in>
+      <in>Player.h</in>
+      <in>Residence.cc</in>
+      <in>Residence.h</in>
+      <in>SLC.cc</in>
+      <in>SLC.h</in>
+      <in>TimsLine.cc</in>
+      <in>TimsLine.h</in>
+      <in>Tuition.cc</in>
+      <in>Tuition.h</in>
+      <in>main.cc</in>
+    </df>
+    <itemPath>Makefile</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>3</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_signals>
+        </gdb_signals>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -load </runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -load load2.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -load load1.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -load load3.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -load load5.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -testing</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -testing -load load2.txt</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -testing -load load5.txt</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" -testing -load load5.txt</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

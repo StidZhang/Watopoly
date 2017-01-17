@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <in>AcademicBuilding.cc</in>
+      <in>Building.cc</in>
+      <in>Cell.cc</in>
+      <in>Controller.cc</in>
+      <in>CoopFee.cc</in>
+      <in>Dice.cc</in>
+      <in>Display.cc</in>
+      <in>GameBoard.cc</in>
+      <in>GoToTim.cc</in>
+      <in>GooseNesting.cc</in>
+      <in>Gym.cc</in>
+      <in>NeedlesHall.cc</in>
+      <in>Nonproperty.cc</in>
+      <in>OSAP.cc</in>
+      <in>Observer.cc</in>
+      <in>Player.cc</in>
+      <in>Residence.cc</in>
+      <in>SLC.cc</in>
+      <in>TimsLine.cc</in>
+      <in>Tuition.cc</in>
+      <in>main.cc</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+    <itemPath>Makefile</itemPath>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>watopoly.exe</executablePath>
+          <ccTool>
+            <standard>8</standard>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand>cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=${IDE_CC} -DCMAKE_CXX_COMPILER=${IDE_CXX} -DCMAKE_C_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_CXX_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON .</preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="AcademicBuilding.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Building.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Cell.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Controller.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CoopFee.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Dice.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Display.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GameBoard.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GoToTim.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GooseNesting.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Gym.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NeedlesHall.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Nonproperty.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="OSAP.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Observer.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Player.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Residence.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SLC.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TimsLine.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Tuition.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main.cc" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

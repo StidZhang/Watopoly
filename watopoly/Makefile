@@ -1,0 +1,10 @@
+CXX = g++-5
+CXXFLAGS = -std=c++14
+OBJECTS= main.o AcademicBuilding.o Building.o Cell.o Controller.o CoopFee.o Dice.o Display.o GameBoard.o GoToTim.o GooseNesting.o Gym.o NeedlesHall.o Nonproperty.o OSAP.o Player.o Residence.o SLC.o TimsLine.o Tuition.o
+DEPENDS=${OBJECTS:.o=.d}
+EXEC=watopoly
+${EXEC}: ${OBJECTS}
+	${CXX} ${CXXFLAGS} ${OBJECTS} -o ${EXEC}
+-include ${DEPENDS}
+clean:
+	rm ${OBJECTS} ${DEPENDS} ${EXEC}
